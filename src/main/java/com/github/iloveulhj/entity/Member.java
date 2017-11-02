@@ -10,9 +10,10 @@ import javax.persistence.Id;
 @Data
 @Entity
 public class Member {
-    @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
-    private Integer id;
-    private String name;
-    private String email;
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Integer id;
+	private String name;
+	private String email;
+
 }

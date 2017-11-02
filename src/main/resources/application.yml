@@ -1,0 +1,7 @@
+# application.yml
+spring:
+  jpa:
+    hibernate.ddl-auto: create
+    show-sql: true
+  freemarker.template-loader-path: classpath:/webapp/view/
+  output.ansi.enabled: always
