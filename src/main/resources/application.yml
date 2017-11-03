@@ -3,5 +3,7 @@ spring:
   jpa:
     hibernate.ddl-auto: create
     show-sql: true
-  freemarker.template-loader-path: classpath:/webapp/view/
+  freemarker:
+    template-loader-path: classpath:/webapp/view/
+    cache: false
   output.ansi.enabled: always

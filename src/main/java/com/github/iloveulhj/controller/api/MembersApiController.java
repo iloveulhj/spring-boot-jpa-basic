@@ -34,7 +34,7 @@ public class MembersApiController {
 	@PostMapping
 	public String addMember(Member member) {
 		memberRepository.save(member);
-		return "new";
+		return "register";
 	}
 
 	@PutMapping(path = "/{id}", params = {"name", "email"})

@@ -9,3 +9,14 @@
 
 ### Run
 - mvn spring-boot:run
+
+### Vue.js
+- https://vuejs.org/v2/guide/instance.html
+- https://vuejs.org/v2/api/
+
+### Tips
+- freemarker live reload : http://jojoldu.tistory.com/48
+
+## SamplePage
+- http://localhost:8080/join
+- http://localhost:8080/members
