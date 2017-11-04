@@ -1,8 +1,6 @@
 # application.yml
 logging.pattern.level: DEBUG
 spring:
-  mvc:
-   static-path-pattern: js/**,img/**,css/**
   resources:
     static-locations: classpath:/webapp/
     chain:

@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <title>Join</title>
 </head>
-
+<@spring.resourceUrl "/js/ajax.js" /><br>
+<@spring.resourceUrl "/WEB-INF/login.ftl" /><br>
 <body>
 <form>
     <div id="app">
@@ -25,12 +26,11 @@
     </div>
 </form>
 </body>
-
 <script src="https://code.jquery.com/jquery-3.2.1.js"
         integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
         crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-<script src="<@spring.url "/js/ajax.js" />"></script>
+<script src="<@spring.resourceUrl "/js/ajax.js" />"></script>
 <script>
     var app = new Vue({
         el: '#app',

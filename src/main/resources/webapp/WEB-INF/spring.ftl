@@ -384,4 +384,4 @@ ${stringStatusValue}</textarea>
 </#macro>spr
 
 
-<#macro resourceUrl relativeUrl>${ResourceUrlProvider.(relativeUrl)}</#macro>
+<#macro resourceUrl relativeUrl>${resourceUrlProvider.getForLookupPath(relativeUrl)}</#macro>
