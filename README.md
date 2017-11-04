@@ -4,6 +4,9 @@
 ### Boot-1.5.8 application properties
 - https://docs.spring.io/spring-boot/docs/1.5.8.RELEASE/reference/html/common-application-properties.html
 
+### JPA
+- architecture: https://www.tutorialspoint.com/jpa/jpa_architecture.htm
+
 ### Swagger
 - http://localhost:8080/swagger-ui.html
 
