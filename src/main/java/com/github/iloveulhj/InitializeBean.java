@@ -1,7 +1,7 @@
 package com.github.iloveulhj;
 
-import com.github.iloveulhj.entity.Member;
-import com.github.iloveulhj.repository.MemberRepository;
+import com.github.iloveulhj.api.entity.Member;
+import com.github.iloveulhj.api.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,8 +16,9 @@ public class InitializeBean {
 	private void initData() {
 		for (int index = 0; index < 10; index++) {
 			Member member = new Member();
-			member.setName("name#" + index);
 			member.setEmail("email#" + index + "@gmail.com");
+			member.setName("name#" + index);
+			member.setPassword("#"+index);
 			memberRepository.save(member);
 		}
 	}

@@ -1,4 +1,4 @@
-package com.github.iloveulhj.controller.web;
+package com.github.iloveulhj.web.controller;
 
 import org.springframework.stereotype.Controller;
 		import org.springframework.web.bind.annotation.GetMapping;
@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 @RequestMapping("")
 public class JoinController {
-	@GetMapping(path = {"", "/join"})
+	@GetMapping(path = {"/join"})
 	public String join() {
 		return "join";
 	}

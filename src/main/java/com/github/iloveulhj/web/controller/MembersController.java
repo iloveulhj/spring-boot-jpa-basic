@@ -1,4 +1,4 @@
-package com.github.iloveulhj.controller.web;
+package com.github.iloveulhj.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

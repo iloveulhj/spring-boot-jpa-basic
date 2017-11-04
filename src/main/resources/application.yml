@@ -1,9 +1,19 @@
 # application.yml
+logging.pattern.level: DEBUG
 spring:
+  mvc:
+   static-path-pattern: js/**,img/**,css/**
+  resources:
+    static-locations: classpath:/webapp/
+    chain:
+      strategy:
+        content:
+          enabled: true
+          paths: /**
   jpa:
     hibernate.ddl-auto: create
     show-sql: true
   freemarker:
-    template-loader-path: classpath:/webapp/view/
+    template-loader-path: classpath:/webapp/WEB-INF/
     cache: false
   output.ansi.enabled: always

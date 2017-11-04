@@ -21,7 +21,8 @@ public class SwaggerConfig {
 				.select()
 				.apis(RequestHandlerSelectors.any())
 				.paths(PathSelectors.ant("/v1/**"))
-				.build();
+				.build()
+				.enableUrlTemplating(true);
 	}
 
 	private ApiInfo apiInfo() {
